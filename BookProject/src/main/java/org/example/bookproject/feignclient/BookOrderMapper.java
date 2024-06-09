@@ -9,7 +9,7 @@ public class BookOrderMapper {
         response.setId(bookOrder.getId());
         response.setBookId(bookOrder.getBookId());
         response.setQuantity(bookOrder.getQuantity());
-        // ustaw inne pola...
+       
         return response;
     }
 }
